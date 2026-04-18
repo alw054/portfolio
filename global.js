@@ -20,7 +20,7 @@ let pages = [
 const BASE_PATH =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "/"
-    : "/portfolio";
+    : "/portfolio/";
 
 // Create nav and add to page
 let nav = document.createElement("nav");
