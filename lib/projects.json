@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Food Processing vs Nutrition Analysis",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Analyzed how food processing levels affect nutritional value using z-score normalization and rolling averages for trend visualization."
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Built a responsive portfolio site with dynamic project rendering, dark mode toggle, and GitHub API integration using HTML, CSS, and JavaScript."
+  },
+  {
+    "title": "Matrix Multiplication Optimization",
+    "year": "2026",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Optimized matrix multiplication performance using loop reordering and cache-aware techniques such as tiling and transposition."
+  },
+  {
+    "title": "EV Charging Behavior Analysis",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Developed machine learning models to classify EV charging behavior, improving prediction accuracy by 30% and identifying efficiency differences between user groups."
+  },
+  {
+    "title": "Healthcare Data Analytics Dashboard",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Designed SQL pipelines and Power BI dashboards to analyze patient data and visualize healthcare trends for decision-making support."
+  },
+  {
+    "title": "Power Outage Prediction System",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Built machine learning models using Random Forest and XGBoost to predict outage duration with feature engineering and SHAP-based explainability."
+  },
+  {
+    "title": "Song Recommender System",
+    "year": "2025",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Created a recommendation system based on audio features such as energy and danceability, along with interactive visualizations and a lyrics search tool."
+  },
+  {
+    "title": "Bayesian Network Income Predictor",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Implemented Bayesian Networks on the UCI Adult dataset to model income prediction and analyze class imbalance effects."
+  },
+  {
+    "title": "RF Signal Classification for Drones",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Worked with RF datasets to classify drone signals using machine learning and signal processing techniques for real-world detection tasks."
+  },
+  {
+  "title": "Single-Player Story Video Game",
+  "year": "2023",
+  "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+  "description": "Designed and developed a single-player story-based video game with interactive choices, character dialogue, and a narrative-driven progression system."
+  },
+  {
+  "title": "Web Crawler in C",
+  "year": "2023",
+  "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+  "description": "Built a web crawler in C to fetch webpages, parse links, and traverse connected pages while practicing memory management, file handling, and data structures."
+  },
+  {
+  "title": "Dinosaur Runner Game",
+  "year": "2022",
+  "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+  "description": "Built a browser-based dinosaur runner game inspired by the Google Chrome offline game, using keyboard controls, obstacle generation, collision detection, and score tracking."
+}
+]
