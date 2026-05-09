@@ -291,3 +291,95 @@ h1, h2, h3, h4, h5, h6 {
 .gridlines path {
   display: none;
 }
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 0.75rem;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.2);
+  z-index: 10;
+  pointer-events: none;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+  pointer-events: none;
+}
+
+#selection-count {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  min-height: 2rem;
+}
+
+#language-breakdown {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2rem;
+  min-height: 180px;
+  align-items: flex-start;
+}
+
+#language-breakdown dt {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+#language-breakdown dd {
+  font-size: 2rem;
+  margin: 0.5rem 0 0;
+  text-align: center;
+  font-family: monospace;
+}
