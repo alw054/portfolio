@@ -12,7 +12,7 @@ let pages = [
   { url: "contact/", title: "Contact" },
   { url: "https://github.com/alw054", title: "GitHub" },
   { url: "resume/", title: "Resume" },
-  { url: "Meta/", title: "Meta" }
+  { url: "meta/", title: "Meta" }
 
 
 ];
