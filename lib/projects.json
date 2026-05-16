@@ -1,5 +1,12 @@
 [
   {
+  "title": "Bikewatching",
+  "year": "2026",
+  "image": "images/Bikewatching.jpg",
+  "url": "https://alw054.github.io/bikewatching/",
+  "description": "Built an interactive Mapbox and D3 visualization of BlueBike traffic in the Boston area, showing bike lanes, station traffic volume, time filtering, and arrival/departure flow."
+  },
+  {
     "title": "Food Processing vs Nutrition Analysis",
     "year": "2026",
     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
